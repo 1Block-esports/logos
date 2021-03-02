@@ -1,33 +1,52 @@
 <!doctype html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>1Block esports - Repo de logos</title>
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <meta name="viewport" content="width=device-width">
-    <!--[if lt IE 9]>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <title>1Block esports - Repo de logos</title>
+
+  <link rel="stylesheet" href="stylesheets/styles.css">
+  <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+  <meta name="viewport" content="width=device-width">
+  <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1>Logos</h1>
-        <p>Repo de logos de esports y marcas.</p>
-      </header>
-      <section>
-        <h1>Teams</h1>
-        <img src="images/astralis-512x512.png" style="width:32px;height: 32px;"/>
 
-      </section>
-      <footer>
-        <p>Gracias a <a href="http://github.com/orderedlist">Steve Smith</a></p>
-        <p><small>Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
-    </div>
-    <script src="javascripts/scale.fix.js"></script>
-  </body>
+  <style>
+    a.logo-block {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 25%;
+    }
+    a.logo-block img{
+      width:64px;
+      height:64px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrapper">
+    <header>
+      <h1>Logos</h1>
+      <p>Repo de logos de esports y marcas.</p>
+    </header>
+    <section>
+      <h1>Teams</h1>
+      <a href="images/astralis-512x512.png" class="logo-block">
+        <img src="images/astralis-512x512.png"/>
+      </a>
+
+    </section>
+    <footer>
+      <p>Gracias a <a href="http://github.com/orderedlist">Steve Smith</a></p>
+      <p><small>Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+    </footer>
+  </div>
+  <script src="javascripts/scale.fix.js"></script>
+</body>
+
 </html>
