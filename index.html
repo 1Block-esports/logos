@@ -14,6 +14,17 @@
     <![endif]-->
 
   <style>
+    .logo-block {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+
+    a.logo-block__link img {
+      width: 80%;
+      height: auto;
+    }
+
     a.logo-block__link {
       display: flex;
       flex-direction: column;
@@ -24,23 +35,12 @@
       margin-bottom: 1rem;
     }
 
-    .logo-block {
-      display: flex;
-      justify-content: space-between;
-      flex-wrap: wrap;
-    }
-
-    a.logo-block img {
-      width: 80%;
-      height: auto;
-    }
-
-    a.logo-block img.white {
+    a.logo-block__link img.white {
       background: #000;
     }
 
-    a.logo-block:hover,
-    a.logo-block:hover img {
+    a.logo-block__link:hover,
+    a.logo-block__link:hover img {
       opacity: .8;
     }
   </style>
