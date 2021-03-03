@@ -1,0 +1,106 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <title>1Block esports - Repo de logos</title>
+
+  <link rel="stylesheet" href="../stylesheets/styles.css">
+  <link rel="stylesheet" href="../stylesheets/pygment_trac.css">
+  <meta name="viewport" content="width=device-width">
+  <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+  <style>
+    .logo-block {
+      display: flex;
+      flex-wrap: wrap;
+      border-top: 1px solid #ccc;
+      padding: 1rem 0;
+      margin: 1rem 0;
+    }
+
+    .logo-block h6 {
+      width: 100%;
+      font-size: 1.3rem;
+    }
+
+    a.logo-block__link img {
+      width: 80%;
+      height: auto;
+      background: #ececec;
+    }
+
+    a.logo-block__link {
+      display: flex;
+      flex-direction: column;
+      width: 25%;
+      justify-content: center;
+      align-items: center;
+      margin: .5rem;
+      margin-bottom: 1rem;
+    }
+
+    a.logo-block__link.white img {
+      background: #607d8b;
+    }
+
+    a.logo-block__link.black img {
+      background: rgb(241 241 241)
+    }
+
+    a.logo-block__link:hover,
+    a.logo-block__link:hover img {
+      opacity: .8;
+    }
+
+    .view {
+      padding: 0.5rem;
+    }
+
+    .active {
+      background: #f3f3f3;
+      padding: 0.5rem;
+    }
+
+    .active a{
+      color: #3a3a3a;
+      font-weight: 500;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrapper">
+    <header>
+      <h1>Logos</h1>
+      <p>Repo de logos de esports y marcas.</p>
+
+      <p class="view"><a href="../index.html">Teams <small>Teams de esports</small></a></p>
+      <p class="view"><a href="./brands/index.html">Brands <small>Marcas relacionadas a los esports</small></a></p>
+      <p class="view active"><a href="#">Torneos <small>Torneos populares de esports</small></a></p>
+    </header>
+    <section>
+      <h1>Torneos</h1>
+      <div class="logo-block">
+        <h6>ESL</h6>
+
+      </div>
+
+      <div class="logo-block">
+        <h6>Blast Premiere</h6>
+
+      </div>
+
+    </section>
+    <footer>
+      <p>Gracias a <a href="http://github.com/orderedlist">Steve Smith</a></p>
+      <p><small>Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+    </footer>
+  </div>
+  <script src="../javascripts/scale.fix.js"></script>
+</body>
+
+</html>
